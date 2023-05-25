@@ -1,5 +1,5 @@
-#%% This script enables plotting all imagery-multi-sensory data captured by ParSa 360+Air
 #!/usr/local/bin/python3
+# This script enables plotting all imagery-multi-sensory data captured by ParSa 360+Air
 
 import sys
 # Define the path to the directory including plotting libraries
@@ -50,5 +50,3 @@ plotter = PhotoBiologicalPlotter()
 cam_1_capture = cam_1_capture_folder_list[0]
 cam_2_capture = cam_2_capture_folder_list[0]
 plotter.generate_plot(cam_1_capture, cam_2_capture, output_folderpath)
-
-# %%
